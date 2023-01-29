@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/o_deep">
+
+    <TextView
+        android:id="@+id/BFY"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="385dp"
+
+        android:fontFamily="@font/watermelon"
+        android:text="널위해서"
+        android:textColor="@color/o_white"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/CFB"
+        android:layout_width="169dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="366dp"
+
+        android:fontFamily="@font/maruburi_light"
+        android:text="Camera For Blind"
+        android:textColor="@color/o_white2"
+        android:textSize="20sp"
+
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="696dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/maruburi_light"
+        android:text="CopyrightⒸ 2022, CounChi All rights reserved"
+        android:textColor="@color/o_white2" />
+</RelativeLayout>
